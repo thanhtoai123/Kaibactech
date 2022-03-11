@@ -64,4 +64,28 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 
+CÁC BƯỚC CÀI ĐẶT DỰ ÁN LARAVEL 9:
+1. Tạo mới thư mục có tên: Kaibatech (Tên khác được)
+2. Mở thư mục vừa tạo trong Visual Studio Code (IDE khác cũng được)
+3. Mở Terminal, chạy lệnh git clone dự án Laravel vể máy:
+    - git clone https://github.com/thanhtoai123/Kaibatech.git
+4. Sau khi clone dự án về máy, tạo mới Database có tên: Kaibatech (tên khác cũng được) trong phpMyAdmin hoặc MySQL khác
+5. Chạy lệnh chuyển đến thư mục cần thao tác: cd Kaibatech (tên thư mục dự án vừa clone về)
+6. Chạy lệnh cài đặt các gói cần trong dự án: composer install
+7. Chạy lệnh copy thư mục .env: cp .env.example .env
+8. Mở file .env cấu hình database: DB_DATABASE=Kaibatech (tên database vừa tạo ở bước trên)
+9. Chạy lệnh tạo key cho dự án: php artisan key:generate
+10. Chạy lệnh tạo table trong Database: php artisan migrate
+11. Chạy lệnh để public thư mục lưu trữ: php artisan storage:link
+12. Chạy lệnh serve xem dự án: php artisan serve
+13. Sau khi xem dự án, còn vài bước nữa để hoàn thành dự án (tham khảo ở đây:https://github.com/anhskohbo/no-captcha)
+14. Mở lại Terminal, chạy lệnh chuyển đến thư mục cần thao tác: cd Kaibatech
+15. Chạy lệnh cài đặt gói re-captcha: composer require anhskohbo/no-captcha
+16. Chạy lệnh xuất bản file cấu hình: php artisan vendor:publish --provider="Anhskohbo\NoCaptcha\NoCaptchaServiceProvider"
+17. Thêm NOCAPTCHA_SECRET và NOCAPTCHA_SITEKEY vào tệp .env:
+    - NOCAPTCHA_SECRET=secret-key
+    - NOCAPTCHA_SITEKEY=site-key
+    (lấy mã ở đây: https://www.google.com/recaptcha/admin)
+18. Hoàn thành, xem kết quả thôi!!!
 
+ 

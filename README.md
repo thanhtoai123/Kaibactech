@@ -64,12 +64,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 
-Hướng dẫn cài đặt dự án về máy mình:
-1. Tạo mới thư mục có tên: Kaibatech
-2. Mở thư mục với IDE của mình
-3. Mở Terminal, chạy câu lệnh git clone code về máy mình: 
-    git clone https://github.com/thanhtoai123/Kaibactech.git
-5. Sau khi clone code về máy, tạo database có tên: kaibatech
-6. Chạy lệnh tạo table trong database: php artisan migrate
-7. Chạy lệnh: php artisan serve
-8. Xem kết quả
+

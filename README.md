@@ -65,7 +65,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 CÁC BƯỚC CÀI ĐẶT DỰ ÁN LARAVEL 9:
-1. Tạo mới thư mục có tên: Kaibatech (Tên khác được)
+Chú ý: máy cần cài cài trước Visual Studio Code(hoặcIDE khác), Github, MySQL,..
+1. Tạo mới thư mục trong máy tính có tên: Kaibatech (Tên khác được)
 2. Mở thư mục vừa tạo trong Visual Studio Code (IDE khác cũng được)
 3. Mở Terminal, chạy lệnh git clone dự án Laravel vể máy:
     - git clone https://github.com/thanhtoai123/Kaibatech.git

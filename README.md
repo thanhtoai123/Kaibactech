@@ -64,8 +64,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 
-CÁC BƯỚC CÀI ĐẶT DỰ ÁN LARAVEL 9:
-Chú ý: máy cần cài cài trước Visual Studio Code(hoặcIDE khác), Github, MySQL,..
+CÁC BƯỚC CÀI ĐẶT DỰ ÁN LARAVEL 9:                                                                                                                                                   -- Chú ý: máy cần cài cài trước Visual Studio Code(hoặcIDE khác), Github, MySQL,..
 1. Tạo mới thư mục trong máy tính có tên: Kaibatech (Tên khác được)
 2. Mở thư mục vừa tạo trong Visual Studio Code (IDE khác cũng được)
 3. Mở Terminal, chạy lệnh git clone dự án Laravel vể máy:
